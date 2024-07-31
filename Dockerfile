@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY target/spring-petclinic-3.3.0-SNAPSHOT.jar /app
+COPY target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar /app
 
 # Specify the command to run the JAR file
 ENTRYPOINT ["java", "-jar", "/app/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar"]
