@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-slim
 
-# Set the working directory in the container
+# Set the working directory in the workdir
 WORKDIR /app
 
 # Copy the JAR file into the container
